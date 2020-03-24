@@ -1,0 +1,61 @@
+/*.sectionBg{
+    background-image: url(https://tinyhorse.com/wp-content/uploads/2019/04/tiny-horse-marketing-strategies.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 0px;
+}*/
+#sectionStart {
+    padding-top:90px; height:950px;  
+    background-image: url(https://tinyhorse.com/wp-content/uploads/2019/04/tiny-horse-marketing-strategies.jpg);
+    background-size: fill;
+    background-repeat: no-repeat;
+    background-position: bottom;
+}
+.fonthead{
+    font-size: 40px;
+    color: white;
+    font-family: 'Libre Baskerville', serif;
+}
+
+nav li {
+	display: inline;		/*this is to make the words go horizontal instead listing it*/
+    font-size: 15px;
+    text-align: right;
+	text-transform: uppercase;
+	margin-right: 30px;		/* margin is to add space to the wording/pictures*/
+	
+}
+
+nav a{
+	
+	text-decoration: none;	/*text-decoration ---> no underline, bold, etc*/
+	color: black;
+	
+}
+/* section */
+section {
+    padding: 70px 0; 
+    color: black;
+}
+.section1{
+    background-color: rgb(224, 208, 211);
+    font-family: 'Libre Baskerville', serif;
+    
+}
+
+/*this is so when you go over the word/link it turns grey*/
+nav a:hover{
+    text-decoration: underline;
+    text-underline-position: below;
+	color: grey;
+}
+
+/* removing borders around the cards */
+
+.cards1{
+    font-family: 'Libre Baskerville', serif;
+}
+.sectionfooter{
+    background-color: rgb(43, 42, 42);
+}
